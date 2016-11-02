@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: stretch;
+    justify-content: flex-start;
+    width: 540px;
+    height: 180px;
+    margin: 10px 0;
+}
+
+section article:nth-child(2) {
+    border-left: 10px solid rgb(86, 100, 146);
+    padding: 20px;
+}
+
+section article:last-child {
+    padding-top: 134px;
+    padding-right: 20px;
+
+}
+
+section article:nth-child(2) div.details div.title ul li, section article:nth-child(2) div.details div.data ul li {
+    list-style: none;
+}
+
+section article:nth-child(2) div.details div.title, section article:nth-child(2) div.details div.data {
+    display: inline-block;
+}
+
+section article:nth-child(2) div.details div.title ul {
+    font-weight: bold;
+    padding-left: 0px;
+}
+
+section article:nth-child(2) {
+    font-size: 14px;
+
+}
+
+section article:nth-child(2) header {
+    font-size: 28px;
+}
+section.elso article:nth-child(2), section.elso article:last-child {
+    background: rgb(255, 255, 241);
+}
+
+section.masodik article:nth-child(2), section.masodik article:last-child {
+    background: rgb(172, 184, 223);
+}
