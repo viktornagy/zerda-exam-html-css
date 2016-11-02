@@ -81,7 +81,7 @@ Add your answer to this readme file, commit your changes to this repository.
 </html>
 ```
 #### Your answer: [2p]
-
+Mivel benne van a "bar" doboz a "foo" dobozban es a pozíció abszulútra van megadva ezért a "foo" doboz szélétől 20 20 pixelre lesz benne és a "foo" doboz pedig 20 20 pixelre van a body felso bal sarkától ezért ez összeadódik, így 40 40 pixelre lesz a sárga doboz a body felső bal sarkától.
 
 ## 3. Explain concepts (~15 minutes) [4 points]
 Add your answer to this readme file, commit your changes to this repository.
